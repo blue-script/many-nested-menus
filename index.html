@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body>
 
-  <ul class="root-nav">
-    <li><a href="https://google.com">Google</a></li>
-    <li><a href="https://google.com">Google</a></li>
-    <li><a href="https://google.com">Google</a></li>
-  </ul>
-  
+<body>
+  <div class="container">
+
+    <ul class="root-nav">
+      <li><a href="https://google.com">Google</a></li>
+      <li><span>Sub2</span>
+        <ul>
+          <li><a href="#">Link 10</a></li>
+          <li><a href="#">Link 20</a></li>
+          <li><span>Sub303</span>
+            <ul>
+              <li><a href="#">Link 103</a></li>
+              <li><a href="#">Link 203</a></li>
+              <li><a href="#">Link 303</a></li>
+              <li><a href="#">Link 403</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Link 40</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Link 3</a></li>
+      <li><span>Sub4</span>
+        <ul>
+          <li><a href="#">Link 100</a></li>
+          <li><span>Sub200</span>
+            <ul>
+              <li><a href="#">Link 1000</a></li>
+              <li><a href="#">Link 2000</a></li>
+              <li><span>Sub3000</span>
+                <ul>
+                  <li><a href="#">Link 10001</a></li>
+                  <li><a href="#">Link 20001</a></li>
+                  <li><a href="#">Link 30001</a></li>
+                  <li><a href="#">Link 40001</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Link 4000</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Link 300</a></li>
+          <li><a href="#">Link 400</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+
+  <script src="nav.js"> </script>
 </body>
+
 </html>
